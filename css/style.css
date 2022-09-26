@@ -28,6 +28,11 @@
     background-color: darkmagenta;
     border: 1px dashed black;
 }
+.debug .col-3 , .debug .col-4 , .debug .col-5{
+    background-color: chartreuse;
+    height: 900px;
+    border: 1px dashed black;
+}
     
 /* COMMON */
 .container-big{
@@ -36,6 +41,8 @@
 }
 .container-small{
     max-width:1000px;
+    padding-top: 150px;
+    margin: auto;
 }
 .row{
     display: flex;
@@ -44,12 +51,7 @@
     display: flex;
     list-style: none;
 }
-.left-nav .nav .list-inline li{
-    margin: 0 40px 0 20px;
-}
-.right-nav .nav .list-inline li{
-    margin: 0 20px 0 40px;
-}
+
  li a{
     text-decoration: none;
     color: inherit;
@@ -62,6 +64,7 @@
 .col-2{
     width: 70%;
 }
+
 
 .arrow{
     margin-top:70px ;
@@ -102,7 +105,10 @@ h1{
     font-size: 70px;
     font-weight: 900;
 }
-    
+h2{
+    font-size: 30px;
+    font-weight: 800;
+} 
 
 /* HEADER */
 .header-top{
@@ -117,6 +123,12 @@ h1{
     align-items: center;
     justify-content: center;
 }
+.left-nav .nav .list-inline li{
+    margin: 0 40px 0 20px;
+}
+.right-nav .nav .list-inline li{
+    margin: 0 20px 0 40px;
+}
 .hero{
     padding-top: 100px;
     background-color: #b4d0e7;
@@ -129,5 +141,15 @@ h1{
 }
 
 /* MAIN */
-
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px ;
+}
+.col-3 , .col-4 , .col-5{
+    width: 30%;
+}
+.container-small h2{
+    margin-bottom:70px ;
+}
 /* FOOTER */
