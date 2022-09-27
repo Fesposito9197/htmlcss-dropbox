@@ -339,4 +339,17 @@ background:#ffd830 ;
     background-color: #b4d0e7;
     height: 360px;
 }
+.faq{
+    padding:45px 0;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+.faq h4{
+    display: inline-block
+}
+
+.faq span{
+    
+    padding-left: 280px;
+}
 /* FOOTER */
