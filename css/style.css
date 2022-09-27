@@ -52,7 +52,7 @@
     list-style: none;
 }
 
- li a{
+li a{
     text-decoration: none;
     color: inherit;
 }
@@ -145,11 +145,90 @@ h2{
     display: flex;
     justify-content: space-between;
     margin-top:50px ;
+    flex-wrap: wrap;
 }
 .col-3 , .col-4 , .col-5{
     width: 30%;
+    text-align: center;
+    border: 1px solid #d0d0d3;
 }
+
 .container-small h2{
     margin-bottom:70px ;
+}
+.col-3 h5 , .col-4 h5 , .col-5 h5{
+    padding: 10px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #d0d0d3;
+}
+.col-content{
+    text-align: left;
+    margin: 25px;
+}
+.col-content small{
+    display: block;
+}
+.col-content ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+.col-content ul li i{
+    margin-right: 15px;
+}
+.col-content a{
+    display: inline-block;
+    margin: 40px 0 30px;
+}
+.col-content .check-list li i{
+    color: #0061ff;
+}
+.col-content hr{
+    width: 20%;
+    
+}
+.col-content h6{
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom:35px ;
+}
+small.price{
+    margin-top: 20px ;
+    font-weight: bold;
+}
+small.price-info{
+    color: grey;
+    margin: 15px 0 50px;
+}
+.orizzontal-box{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.orizzontal{
+    border: 1px solid #d0d0d3;
+    margin-top: 50px;
+    border: ;
+}
+.orizzontal h5{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+}
+.col-6{
+    width:60%;
+}
+.col-6 p{
+    margin-top:55px ;
+}
+
+.col-7{
+    
+    width:40%;
+}
+.col-7 a{
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 80px;
 }
 /* FOOTER */
