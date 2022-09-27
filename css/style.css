@@ -91,7 +91,7 @@ img{
 }
 
 .btn-secondary{
-    
+    background-color: white;
     color: black;
     border: 1px solid black;
 }   
@@ -253,7 +253,7 @@ small.price-info{
     margin-bottom: 20px;
 }
 .row .col-7 a{
-    margin-top: 25px;
+    margin-top: 90px;
     display: inline-block;
     
 }
@@ -329,6 +329,14 @@ background:#ffd830 ;
 .partner{
     width: 50%;
     height: 50%;
-    
+}
+.bordeaux-text{
+    color:#61082b;
+    text-align: center;
+    margin-top: 145px;
+}   
+.hero-2{
+    background-color: #b4d0e7;
+    height: 360px;
 }
 /* FOOTER */
