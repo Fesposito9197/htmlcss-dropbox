@@ -33,7 +33,12 @@
     height: 900px;
     border: 1px dashed black;
 }
-    
+
+.debug .col{
+    background-color: darkslateblue;
+    width: calc(100% / 3 - 20px);
+    margin: 10px;
+}
 /* COMMON */
 .container-big{
     max-width: 1200px;
@@ -248,5 +253,13 @@ small.price-info{
     margin-top: 25px;
     display: inline-block;
     
+}
+.col{
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+}
+.row-2 .col h5{
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 /* FOOTER */
