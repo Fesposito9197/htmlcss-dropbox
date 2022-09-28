@@ -39,6 +39,10 @@
     width: calc(100% / 3 - 20px);
     margin: 10px;
 }
+.radio{
+    display: inline-block;
+    margin-left: 40px;
+}
 /* COMMON */
 .container-big{
     max-width: 1200px;
@@ -157,6 +161,10 @@ h2{
 }
 
 /* MAIN */
+.radio{
+    display: inline-block;
+    margin-left: 40px;
+}
 .row-2{
     display: flex;
     justify-content: space-between;
