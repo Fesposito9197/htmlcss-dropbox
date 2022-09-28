@@ -39,19 +39,20 @@
     width: calc(100% / 3 - 20px);
     margin: 10px;
 }
-.radio{
-    display: inline-block;
-    margin-left: 40px;
-}
+
 /* COMMON */
 .container-big{
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
 }
 .container-small{
     max-width:1000px;
     padding-top: 150px;
+    
     margin: auto;
+}
+.container-small:nth-last-child(1){
+    padding-bottom: 150px;
 }
 .row{
     display: flex;
@@ -353,6 +354,9 @@ small.price-info{
 .faq{
     padding:45px 0;
     border-top: 1px solid #999999;
+    
+}
+.faq:nth-last-child(1){
     border-bottom: 1px solid #999999;
 }
 .faq h4{
@@ -364,3 +368,35 @@ small.price-info{
     padding-left: 280px;
 }
 /* FOOTER */
+footer{
+    background-color: black;
+    
+}
+footer .container-big{
+    padding-top: 110px;
+}
+.row-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-list {
+    color: white;
+    
+}
+
+.footer-list ul li {
+    list-style: none;
+    margin: 15px 0;
+}
+footer .ita{
+    color:#999999;
+    padding-top: 50px;
+    margin-top: 100px;
+    width: 120px;
+    border-top: 1px solid white;
+
+}
+.ita i{
+   margin-left: 3px;
+   margin-right: 5px;
+}
