@@ -69,20 +69,10 @@ li a{
     color: inherit;
 }
     
-.col-1{
-    
-    width: 30%;
-}
-.col-2{
-    width: 70%;
-}
 
 
-.arrow{
-    margin-top:70px ;
-    font-size: 40px;
-    
-}
+
+
 img{
     width: 100%;
 }
@@ -153,15 +143,29 @@ h2{
 .hero{
     
     background-color: #b4d0e7;
-    height: 735px;
+    
     
 }
-.hero .container-big{
+.position{
     position: relative;
-    bottom: -105px;
+    bottom: -85px;
+}
+.col-1{
+    
+    width: 30%;
+}
+.col-2{
+    width: 70%;
 }
 .container-big h1{
     margin-bottom: 45px;
+    position: relative;
+    top: 100px;
+}
+.arrow{
+    margin-top:60px ;
+    font-size: 40px;
+    
 }
 .col-1 a{
     display: inline-block;
